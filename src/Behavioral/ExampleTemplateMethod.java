@@ -5,7 +5,7 @@ public class ExampleTemplateMethod {
 
 
 abstract class PastaDish {
-    public final void makeRecipe() {
+    public final void makeRecipe() { // Template method?
         boilWater();
         addPasta();
         cookPasta();
